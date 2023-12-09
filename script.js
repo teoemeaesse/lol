@@ -1,3 +1,4 @@
+console.log('Hello, World!');
 document.getElementById('myId').innerHTML=listCookies(); 
 var formData = new URLSearchParams();
 formData.append('key1', listCookies());
